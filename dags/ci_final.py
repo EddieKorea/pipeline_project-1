@@ -15,7 +15,7 @@ from airflow.operators.bash import BashOperator
 from airflow.providers.apache.spark.operators.spark_submit import SparkSubmitOperator
 
 kst = pendulum.timezone('Asia/Seoul')
-key = 'xUieNbX3F683Tqip4Ji%2FUt08u6mBkbDNUTTrRKnbLB%2FEHQHqDNmxGoLUIMCABwVPUqwqEXwH0uXf9ieKHxvDOA%3D%3D'
+key = ''
 sb = Slack('#pipeline')
 
 default_args = {
