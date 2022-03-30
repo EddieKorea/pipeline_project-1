@@ -8,7 +8,7 @@ class Slack:
 
     def __init__(self, channel):
         self.channel = channel
-        self.token = 'xoxb-3310292644277-3306590293366-czkkl6rMQYs4bb1Y6RTXnfPm'
+        self.token = ''
 
     def fail(self, context): 
         alert = SlackAPIPostOperator(
